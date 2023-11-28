@@ -1,12 +1,12 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'LessonThree',
+  appId: 'be.michiel.wouters.thomasmore.graduaten.gallery',
+  appName: 'Gallery',
   webDir: 'www',
   server: {
-    androidScheme: 'https'
-  }
-};
+    androidScheme: 'https',
+  },
+}
 
-export default config;
+export default config
